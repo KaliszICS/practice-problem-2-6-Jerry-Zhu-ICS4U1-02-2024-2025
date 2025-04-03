@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PracticeProblemTest" time="0.108" tests="14" errors="0" skipped="0" failures="14">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PracticeProblemTest" time="0.1" tests="14" errors="0" skipped="0" failures="13">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -14,7 +14,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/java/11.0.14/lib"/>
-    <property name="sun.java.command" value="/workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/surefire/surefirebooter3618052026321401696.jar /workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/surefire 2025-04-03T02-52-56_015-jvmRun1 surefire10501673239419898277tmp surefire_016400582983883043754tmp"/>
+    <property name="sun.java.command" value="/workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/surefire/surefirebooter11814485076921784945.jar /workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/surefire 2025-04-03T06-11-39_322-jvmRun1 surefire3590456550744169621tmp surefire_06917264881858166726tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/test-classes:/workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/surefire/surefirebooter3618052026321401696.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/practice-problem-2-6-Jerry-Zhu-ICS4U1-02-2024-2025/target/surefire/surefirebooter11814485076921784945.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -56,89 +56,85 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="bubbleSortTest1" classname="PracticeProblemTest" time="0.037">
-    <failure message="array contents differ at index [0], expected: &lt;1.0&gt; but was: &lt;3.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <1.0> but was: <3.0>
+  <testcase name="bubbleSortTest1" classname="PracticeProblemTest" time="0.042">
+    <failure message="array contents differ at index [0], expected: &lt;1.0&gt; but was: &lt;155.2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <1.0> but was: <155.2>
 	at PracticeProblemTest.bubbleSortTest1(PracticeProblemTest.java:298)
 ]]></failure>
-    <system-err><![CDATA[Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+    <system-err><![CDATA[Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.bubbleSortTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.bubbleSortTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest3()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest4()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest3()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest4()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.insertionSortTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.insertionSortTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.selectionSortTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.selectionSortTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.bubbleSortTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.bubbleSortTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest3()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastStepsTest4()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest3()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.leastSwapsTest4()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.insertionSortTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.insertionSortTest2()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.selectionSortTest1()] must be declared with a non-empty value.
-Apr 03, 2025 2:52:56 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+Apr 03, 2025 6:11:40 AM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
 WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.selectionSortTest2()] must be declared with a non-empty value.
 ]]></system-err>
   </testcase>
-  <testcase name="bubbleSortTest2" classname="PracticeProblemTest" time="0">
-    <failure message="array contents differ at index [0], expected: &lt;42&gt; but was: &lt;17&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <42> but was: <17>
-	at PracticeProblemTest.bubbleSortTest2(PracticeProblemTest.java:108)
-]]></failure>
-  </testcase>
-  <testcase name="leastStepsTest1" classname="PracticeProblemTest" time="0.002">
+  <testcase name="bubbleSortTest2" classname="PracticeProblemTest" time="0.005"/>
+  <testcase name="leastStepsTest1" classname="PracticeProblemTest" time="0">
     <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
 	at PracticeProblemTest.leastStepsTest1(PracticeProblemTest.java:218)
 </failure>
   </testcase>
-  <testcase name="leastStepsTest2" classname="PracticeProblemTest" time="0.002">
+  <testcase name="leastStepsTest2" classname="PracticeProblemTest" time="0">
     <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
 	at PracticeProblemTest.leastStepsTest2(PracticeProblemTest.java:239)
 </failure>
   </testcase>
-  <testcase name="leastStepsTest3" classname="PracticeProblemTest" time="0.001">
+  <testcase name="leastStepsTest3" classname="PracticeProblemTest" time="0.002">
     <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
 	at PracticeProblemTest.leastStepsTest3(PracticeProblemTest.java:260)
 </failure>
   </testcase>
-  <testcase name="leastStepsTest4" classname="PracticeProblemTest" time="0.006">
+  <testcase name="leastStepsTest4" classname="PracticeProblemTest" time="0.003">
     <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
 	at PracticeProblemTest.leastStepsTest4(PracticeProblemTest.java:281)
 </failure>
@@ -148,12 +144,12 @@ WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.selectio
 	at PracticeProblemTest.leastSwapsTest1(PracticeProblemTest.java:134)
 </failure>
   </testcase>
-  <testcase name="leastSwapsTest2" classname="PracticeProblemTest" time="0.001">
+  <testcase name="leastSwapsTest2" classname="PracticeProblemTest" time="0.003">
     <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
 	at PracticeProblemTest.leastSwapsTest2(PracticeProblemTest.java:155)
 </failure>
   </testcase>
-  <testcase name="leastSwapsTest3" classname="PracticeProblemTest" time="0.005">
+  <testcase name="leastSwapsTest3" classname="PracticeProblemTest" time="0">
     <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
 	at PracticeProblemTest.leastSwapsTest3(PracticeProblemTest.java:176)
 </failure>
@@ -168,18 +164,18 @@ WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.selectio
 	at PracticeProblemTest.insertionSortTest1(PracticeProblemTest.java:22)
 </failure>
   </testcase>
-  <testcase name="insertionSortTest2" classname="PracticeProblemTest" time="0.002">
+  <testcase name="insertionSortTest2" classname="PracticeProblemTest" time="0.001">
     <failure message="Method does not exist" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method does not exist
 	at PracticeProblemTest.insertionSortTest2(PracticeProblemTest.java:45)
 </failure>
   </testcase>
-  <testcase name="selectionSortTest1" classname="PracticeProblemTest" time="0.006">
+  <testcase name="selectionSortTest1" classname="PracticeProblemTest" time="0.001">
     <failure message="array contents differ at index [0], expected: &lt;1.0&gt; but was: &lt;155.2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <1.0> but was: <155.2>
 	at PracticeProblemTest.selectionSortTest1(PracticeProblemTest.java:62)
 ]]></failure>
   </testcase>
-  <testcase name="selectionSortTest2" classname="PracticeProblemTest" time="0.002">
-    <failure message="array contents differ at index [0], expected: &lt;32&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <32> but was: <1>
+  <testcase name="selectionSortTest2" classname="PracticeProblemTest" time="0.001">
+    <failure message="array contents differ at index [0], expected: &lt;32&gt; but was: &lt;37&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <32> but was: <37>
 	at PracticeProblemTest.selectionSortTest2(PracticeProblemTest.java:85)
 ]]></failure>
   </testcase>
