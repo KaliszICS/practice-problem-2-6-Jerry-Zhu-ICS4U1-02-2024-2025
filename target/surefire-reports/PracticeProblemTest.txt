@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: PracticeProblemTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 0.108 s <<< FAILURE! - in PracticeProblemTest
+bubbleSortTest1  Time elapsed: 0.037 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <1.0> but was: <3.0>
+	at PracticeProblemTest.bubbleSortTest1(PracticeProblemTest.java:298)
+
+bubbleSortTest2  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <42> but was: <17>
+	at PracticeProblemTest.bubbleSortTest2(PracticeProblemTest.java:108)
+
+leastStepsTest1  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastStepsTest1(PracticeProblemTest.java:218)
+
+leastStepsTest2  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastStepsTest2(PracticeProblemTest.java:239)
+
+leastStepsTest3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastStepsTest3(PracticeProblemTest.java:260)
+
+leastStepsTest4  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastStepsTest4(PracticeProblemTest.java:281)
+
+leastSwapsTest1  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastSwapsTest1(PracticeProblemTest.java:134)
+
+leastSwapsTest2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastSwapsTest2(PracticeProblemTest.java:155)
+
+leastSwapsTest3  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastSwapsTest3(PracticeProblemTest.java:176)
+
+leastSwapsTest4  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.leastSwapsTest4(PracticeProblemTest.java:197)
+
+insertionSortTest1  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.insertionSortTest1(PracticeProblemTest.java:22)
+
+insertionSortTest2  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method does not exist
+	at PracticeProblemTest.insertionSortTest2(PracticeProblemTest.java:45)
+
+selectionSortTest1  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <1.0> but was: <155.2>
+	at PracticeProblemTest.selectionSortTest1(PracticeProblemTest.java:62)
+
+selectionSortTest2  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <32> but was: <1>
+	at PracticeProblemTest.selectionSortTest2(PracticeProblemTest.java:85)
+

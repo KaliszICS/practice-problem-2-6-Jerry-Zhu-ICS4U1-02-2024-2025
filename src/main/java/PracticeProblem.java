@@ -9,13 +9,13 @@ public class PracticeProblem {
 		boolean hasSwitched = true;
 		double temp;
 		int steps = 0;
-		for(int i = 0; i < arr.length - 1  && hasSwitched == true; i++){
+		for(int i = 0; i < arr.length - 1 && hasSwitched; i++){
 hasSwitched = false;
 swaps++;
-for(int j = 0; j < arr.length - 1; j++){
+for(int j = 0; j < arr.length - 1 - i; j++){
 	hasSwitched = false;
-	steps++;
-	if(arr[j] < arr[j+1]){
+	steps+=2;
+	if(arr[j] > arr[j+1]){
 temp = arr[j];
 arr[j] = arr[i];
 arr[i] = temp;
@@ -28,4 +28,10 @@ int[] stepNum = new int[] {swaps, steps};
 return stepNum;
 	}
 
+
+	public static int[] selectionSort(double[] nums){
+		double key;
+		int[] sorted = new int[]{1,2};
+		return sorted;
+	}
 }
