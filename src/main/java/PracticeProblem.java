@@ -1,35 +1,6 @@
 public class PracticeProblem {
 
 	public static void main(String args[]) {
-		double nums[] = {155.2, 155.1, 1, 5, 3, 2, 7};
-		int steps = 0;
-		int swaps = 0;
-		double temp;
-		double[] arr = new double[nums.length];
-		for (int i = 0; i < arr.length; i++){
-			arr[i] = nums[i];
-		}
-		for(int i = 0; i < arr.length - 1; i++){
-			int min = i;
-			swaps++;
-			for(int j = 1 + i; j < arr.length; j++){
-				steps++;
-				if(arr[min] > arr[j]){
-					min = j;
-					swaps++;
-				}
-			}
-			temp = arr[i];
-			arr[i] = arr[min];
-			arr[min] = temp;
-			swaps += 3;
-		}
-		
-
-		for(int k = 0; k< arr.length; k++){
-System.out.print(arr[k] + ", ");
-		}
-		
 	}
 
 	public static int[] bubbleSort(double[] arr) {
